@@ -12,14 +12,10 @@ louvalbuena@gmail.com
 
 make
 
-## Typical usage (compression):
+## FOR (compression)
 
-./lz78 -i inputfile -o outputfile
+.mpiexec -np "NUM OF PROC" -hostfile "FILE.HOST" -i "FILE IN" -o "FILE OUT"
 
-## Typical usage (decompression):
+## FOR(decompress)
 
-./lz78 -i inputfile -o outputfile -d
-
-## Typical pipelined execution
-
-echo "Hello World" | ./lz78 | ./lz78 -d
+.mpiexec -np "NUM OF PROC" -hostfile "FILE.HOST" -i "FILE IN" -o "FILE OUT" -D
