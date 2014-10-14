@@ -1,0 +1,12 @@
+##HOW TO
+## COMPILATION: USE
+
+make
+
+
+## FOR (compression):
+
+.mpiexec -np "NUM OF PROC" -hostfile "FILE.HOST" -i "FILE IN" -o "FILE OUT"
+## FOR(decompress):
+
+.mpiexec -np "NUM OF PROC" -hostfile "FILE.HOST" -i "FILE IN" -o "FILE OUT" -D
