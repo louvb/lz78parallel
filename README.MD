@@ -1,4 +1,12 @@
 Basic Implementation of LZ78 Compression Alghorithm
+Thanks to Giovanni Pellerano
+giovanni.pellerano@evilaliv3.org
+
+MOD  OF LZ78  TO PARALLEL IMPLEMENTATION
+by Luis Valbuena
+louvalbuena@gmail.com
+
+
 
 ## Installation
 
