@@ -2,7 +2,7 @@ Basic Implementation of LZ78 Compression Alghorithm
 Thanks to Giovanni Pellerano
 giovanni.pellerano@evilaliv3.org
 
-MOD  OF LZ78  TO PARALLEL IMPLEMENTATION
+MOD  OF LZ78  TO PARALLEL IMPLEMENTATION USING MPI
 by Luis Valbuena
 louvalbuena@gmail.com
 
